@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        /* body{
+            width: 100%;
+            height: 15vh;
+        } */
+        nav{
+            width: 100%;
+            height: 100vh;
+            background: linear-gradient(to right,#008080 ,#008080,#008080 );
+            backdrop-filter: blur(10px);
+            display: flex;
+            align-items: center;
+            justify-content:space-around;
+        }
+        a{
+            margin: 15px;
+            color: black;
+            text-decoration: none !important;
+            width: 70px;
+            height: 50px;
+            padding: 10px;
+            border: 2px solid black;
+            border-radius: 25px;
+        }
+        a:hover{
+            background-color: black;
+            color: white;
+        }
+        .bis{
+          margin-left: 700px;   
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div>
+            <a style=" border: none; background-color: transparent;" href="index.html" target="_top"><img src="logo.png" alt=""></a>
+        </div>
+        <div class="bis">
+        <a href="index.html" target="_top">HOME</a>
+        <a href="login.html" target="right">LOGIN</a>
+        <a href="register.html" target="right">REGISTER</a>
+        <a href="cart.html" target="right" style="font-size:20px;">&#128722;</a>
+    </div>
+    </nav>
+</body>
+</html>

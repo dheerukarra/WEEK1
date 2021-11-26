@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <style>
+        body{
+            
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+             justify-content: center;
+             align-items: center;
+             text-align: center;
+             background: linear-gradient(to bottom right,#66b2b2 ,#008080,#b2d8d8 );
+             backdrop-filter: blur(5px);
+             overflow: hidden;
+        }
+        form{
+             background: linear-gradient(to bottom right,rgba(102,178,178,0.7) ,rgba(0,128,128,0.7),rgba(178,216,216,0.7) );
+             flex-direction: column;
+             display: flex;
+             backdrop-filter: blur(10px);
+             justify-content: center;
+             text-align: center;
+             width: 200px;
+             height: 300px;
+             padding: 40px;
+             border-radius: 20px;
+        }
+        #sub{
+             background-color: turquoise;
+             font-weight: bold;
+             outline: none;
+             border: none;
+             border-radius: 25px;
+             padding: 10px;
+             height: 40px;
+            }
+        #sub:hover{
+             background-color: #008080;
+             font-weight: bold;
+             color: white;
+        }
+        input{
+            margin-bottom: 15px;
+        }
+        input[type='text'], input[type='password']{
+            outline: none;
+            border: none;
+            padding: 5px 10px 5px 10px;
+            border-radius: 25px;
+        }
+    </style>
+</head>
+<body>
+    <form action="url" method="post">
+        <h1>Register</h1>
+        
+        <input  type="text" name="Name" placeholder="Name">
+       
+        <input  type="text" name="Username" placeholder="Username">
+        
+        <input  type="password" name="password" placeholder="password">
+        <input id="sub" type="submit" name="submit" placeholder="Signup" value="Signup">
+    </form>
+</body>
+</html>
